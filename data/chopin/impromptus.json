@@ -1,0 +1,39 @@
+[
+  {
+    "title": "Impromptus",
+    "id": "imp",
+    "description": "Beautiful compositions by chopin showcasing an informal, improvised and free repertoire."
+  },
+  {
+    "name": "Impromptu No. 1",
+    "work": "Op. 29",
+    "key": "A♭ Major",
+    "editor": "Carl Mikuli",
+    "diff": 7,
+    "href": "data/chopin/impromptus/imp1.pdf"
+  },
+  {
+    "name": "Impromptu No. 2",
+    "work": "Op. 36",
+    "key": "F# Major",
+    "editor": "Carl Mikuli",
+    "diff": 7,
+    "href": "data/chopin/impromptus/imp2.pdf"
+  },
+  {
+    "name": "Impromptu No. 3",
+    "work": "Op. 51",
+    "key": "G♭ Major",
+    "editor": "Carl Mikuli",
+    "diff": 7,
+    "href": "data/chopin/impromptus/imp3.pdf"
+  },
+  {
+    "name": "Fantaisie-Impromptu",
+    "work": "Op. 66",
+    "key": "C# Minor",
+    "editor": "Carl Mikuli",
+    "diff": 7,
+    "href": "data/chopin/impromptus/fantimp.pdf"
+  }
+]
