@@ -1,1 +1,12 @@
-.App {}
+:root {
+    --background-colour:#E3FFF8;
+    --text-colour:#494F4F;
+}
+
+html{
+    background-color: var(--background-colour);
+}
+
+.App {
+
+}
