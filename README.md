@@ -1,10 +1,12 @@
-# Getting Started with Create React App
+# Personal Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the repository for my personal website, which is built in React. 
 
-## Available Scripts
+## External Libraries
 
-In the project directory, you can run:
+- [react-markdown](https://www.npmjs.com/package/react-markdown/v/8.0.6#use)
+
+## Create a Local Instance
 
 ### `npm start`
 
@@ -39,7 +41,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
