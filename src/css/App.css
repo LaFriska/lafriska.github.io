@@ -7,6 +7,12 @@ html{
     background-color: var(--background-colour);
 }
 
-.App {
+.app{
+    color: var(--text-colour);
+    font-family: "Segoe UI", serif
+}
 
+.page{
+    margin: 1rem 55px;
+    width: 50%;
 }

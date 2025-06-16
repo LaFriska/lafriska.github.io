@@ -1,8 +1,7 @@
 
 const style = {
     textDecoration: 'none',
-    fontSize: '1rem',
-    color: 'var(--text-colour)',
+    fontSize: '1.25rem',
     cursor: 'pointer'
 }
 

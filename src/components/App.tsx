@@ -1,15 +1,20 @@
 import React from 'react';
-import '../App.css';
+import '../css/App.css';
 import Header from "./Header";
-import ReactMarkdown from 'react-markdown'
-import remarkGfm from 'remark-gfm'
+import AboutMe from "./AboutMe";
 
 function App() {
-  return (
-    <div className="App">
-      <Header />
-    </div>
-  );
+
+    const style = {
+        margin: '1rem 8rem'
+    }
+
+    return (
+        <div className="app" style={style}>
+            <Header />
+            <AboutMe/>
+        </div>
+    );
 }
 
 export default App;

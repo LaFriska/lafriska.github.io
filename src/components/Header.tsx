@@ -5,11 +5,9 @@ const headerStyles = {
     container: {
         justifyContent: 'space-between',
         alignItems: 'center',
-        padding: '1rem 2rem',
+        padding: '1rem 40px',
         margin: '1rem',
-        color: 'var(--text-colour)',
-        fontFamily: "'Inter', 'Segoe UI', 'Helvetica Neue', sans-serif",
-        borderBottom: '1px solid #ccc'
+        borderBottom: '1px solid #ccc',
     },
     logoContainer: {
         display: 'flex',
@@ -17,12 +15,12 @@ const headerStyles = {
         gap: '0.75rem',
     },
     logoImage: {
-        width: '40px',
-        height: '40px',
+        width: '50px',
+        height: '50px',
         borderRadius: '50%',
     },
     logoText: {
-        fontSize: '2rem',
+        fontSize: '2.25rem',
         fontWeight: 'bold',
     },
     nav: {
