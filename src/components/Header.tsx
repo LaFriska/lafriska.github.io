@@ -21,7 +21,6 @@ export default () => {
         <header style={styles.container}>
             <Logo/>
             <nav style={styles.nav}>
-
                 <SectionLink onClick={() => {}} text={"About Me"} />
                 <SectionLink onClick={() => {}} text={"Projects"} />
                 <SectionLink onClick={() => {}} text={"Education"} />

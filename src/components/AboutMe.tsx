@@ -8,7 +8,7 @@ export default () => {
     const [aboutMe, setAboutMe] = useState('*Loading...*')
 
     useEffect(() => {
-        fetch(`${process.env.PUBLIC_URL}/aboutme.md`)
+        fetch(`${process.env.PUBLIC_URL}/md/aboutme.md`)
             .then(res => res.text())
             .then(setAboutMe)
     }, [])

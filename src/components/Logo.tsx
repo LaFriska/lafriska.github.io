@@ -23,7 +23,7 @@ export default () => {
         <div style={styles.logoContainer}>
             <a href={"index.html"}>
                 <img
-                    src="profpic.png"
+                    src="img/profpic.png"
                     alt="Logo"
                     style={styles.logoImage}
                 />
