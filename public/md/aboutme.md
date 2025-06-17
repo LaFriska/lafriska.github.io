@@ -2,7 +2,7 @@
 
 ## About Me
 
-Hello world! I'm Harold, a current student at the Australian National University (ANU) pursuing an Advanced
+Hey there! I'm Harold, a current student at the Australian National University (ANU) pursuing an Advanced
 Computing Research & Development honours degree. I am passionate and eager to learn about many sub-fields in 
 computer science, such as cybersecurity, cryptography, software engineering, machine learning and computer architecture.
 This website aims to serve as my CV, showing off my projects and academic achievements. My contact details is also
