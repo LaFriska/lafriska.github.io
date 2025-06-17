@@ -3,6 +3,7 @@
     --text-colour:#494F4F;
     --border-gray: #777777;
     --nice-red: #ed5045;
+    --slight-gray: #d1d1d1;
 }
 
 html{
@@ -11,6 +12,7 @@ html{
 
 .app{
     color: var(--text-colour);
+    text-decoration: none !important;
 }
 
 .page{
