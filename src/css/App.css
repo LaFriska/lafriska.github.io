@@ -1,6 +1,7 @@
 :root {
     --background-colour: #FFFFFF;
     --text-colour:#494F4F;
+    --border-gray: #777777;
     --nice-red: #ed5045;
 }
 
@@ -15,4 +16,8 @@ html{
 .page{
     margin: 1rem 55px;
     width: 50%;
+}
+
+.galleryimage{
+    margin: 1.5rem;
 }

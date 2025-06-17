@@ -1,6 +1,7 @@
 import {useEffect, useState} from "react";
 import ReactMarkdown from "react-markdown";
 import '../css/App.css';
+import ImageGallery from "./ImageGallery";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default () => {
@@ -14,9 +15,12 @@ export default () => {
     }, [])
 
     return (
-        <ReactMarkdown className={'page'}>
-            {aboutMe}
-        </ReactMarkdown>
+        <div style={{ display: 'flex' }}>
+            <ReactMarkdown className={'page'}>
+                {aboutMe}
+            </ReactMarkdown>
+            <ImageGallery/>
+        </div>
     )
 
 }
