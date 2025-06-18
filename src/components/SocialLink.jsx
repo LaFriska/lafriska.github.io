@@ -6,7 +6,7 @@ export default ({logoFile, text, link}) => {
         alignItems: 'center',
         textDecoration: 'none',
         color: 'inherit',
-        width: '100%'
+        width: '25%'
     };
 
     const imageStyle = {

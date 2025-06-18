@@ -1,6 +1,7 @@
 import React from 'react';
 import SectionLink from "./SectionLink";
 import Logo from "./Logo";
+import {Page} from "./App";
 
 const styles = {
     container: {
@@ -16,15 +17,14 @@ const styles = {
     }
 };
 
-export default () => {
+export default ({pageSetter}: any) => {
     return (
         <header style={styles.container}>
             <Logo/>
             <nav style={styles.nav}>
-                <SectionLink onClick={() => {}} text={"About Me"} />
-                <SectionLink onClick={() => {}} text={"Projects"} />
-                <SectionLink onClick={() => {}} text={"Education"} />
-                <SectionLink onClick={() => {}} text={"Contact"} />
+                <SectionLink onClick={() => {pageSetter(Page.AboutMe)}} text={"About Me"} />
+                <SectionLink onClick={() => {pageSetter(Page.Projects)}} text={"Projects"} />
+                <SectionLink onClick={() => {pageSetter(Page.Education)}} text={"Education"} />
             </nav>
         </header>
     );

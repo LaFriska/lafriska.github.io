@@ -22,7 +22,7 @@ export default function Gallery() {
         <div style={containerStyle}>
             <img className="galleryimage" style={imageStyle} src="img/circuits.jpg" alt="Circuits"/>
             <img className="galleryimage" style={imageStyle} src="img/linalg.jpg" alt="Linear Algebra" />
-            <img className="galleryimage" style={imageStyle} src="img/java.jpg" alt="Java" />
+            <img className="galleryimage" style={imageStyle} src="img/neural.png" alt="Java" />
             <img className="galleryimage" style={imageStyle} src="img/algebra.jpg" alt="Algebra" />
         </div>
     );
