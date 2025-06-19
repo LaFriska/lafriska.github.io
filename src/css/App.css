@@ -4,6 +4,7 @@
     --border-gray: #777777;
     --nice-red: #ed5045;
     --slight-gray: #d1d1d1;
+    --embed-gray: #ececec
 }
 
 html{
@@ -23,3 +24,4 @@ html{
 .galleryimage{
     margin: 1.5rem;
 }
+
