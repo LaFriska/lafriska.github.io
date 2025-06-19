@@ -8,6 +8,16 @@
 
     --yellow: #ffd966;
     --yellow-light: #fff2cc;
+    --green: #b6d7a8;
+    --green-light: #d9ead3;
+    --blue: #a4c2f4;
+    --blue-light: #c9daf8;
+    --purple: #b4a7d6;
+    --purple-light:#d9d2e9;
+    --red:#ea9999;
+    --red-light:#f4cccc;
+    --gray:#999999;
+    --gray-light:#b7b7b7;
 }
 
 html{

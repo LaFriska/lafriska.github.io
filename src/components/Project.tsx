@@ -1,5 +1,6 @@
 import '../css/App.css';
 import ProjectTag from "./ProjectTag";
+import {TagColour} from "./ProjectTag";
 
 export default () => {
 
@@ -23,6 +24,7 @@ export default () => {
     }
 
     const tagContainerStyle = {
+
     }
 
     const tagListStyle = {
@@ -35,7 +37,7 @@ export default () => {
                 <h3 className={'projectText'}>Kompakt</h3>
                 <p>A compact and convenient JSON serialiser for Java, aimed to resolve verbosity of libraries such as Gson.</p>
                 <div style={tagContainerStyle}>
-                    <ProjectTag>Software</ProjectTag>
+                    <ProjectTag colour={TagColour.Purple}>Computer Architecture</ProjectTag>
                 </div>
                 <div style={footerStyle}>
                     01/12/2024
