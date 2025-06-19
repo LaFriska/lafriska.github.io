@@ -1,4 +1,5 @@
 import '../css/App.css';
+import ProjectTag from "./ProjectTag";
 
 export default () => {
 
@@ -16,9 +17,16 @@ export default () => {
     }
 
     const footerStyle = {
-        marginLeft: '15px',
+        marginTop: '10px',
         fontSize: '0.75rem',
         color: 'var(--border-gray)'
+    }
+
+    const tagContainerStyle = {
+    }
+
+    const tagListStyle = {
+        display: 'flex'
     }
 
     return (
@@ -26,9 +34,12 @@ export default () => {
             <div style={textContainerStyle}>
                 <h3 className={'projectText'}>Kompakt</h3>
                 <p>A compact and convenient JSON serialiser for Java, aimed to resolve verbosity of libraries such as Gson.</p>
-            </div>
-            <div style={footerStyle}>
-                01/12/2024
+                <div style={tagContainerStyle}>
+                    <ProjectTag>Software</ProjectTag>
+                </div>
+                <div style={footerStyle}>
+                    01/12/2024
+                </div>
             </div>
         </div>
     )

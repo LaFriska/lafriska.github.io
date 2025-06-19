@@ -4,7 +4,10 @@
     --border-gray: #777777;
     --nice-red: #ed5045;
     --slight-gray: #d1d1d1;
-    --embed-gray: #ececec
+    --embed-gray: #ececec;
+
+    --yellow: #ffd966;
+    --yellow-light: #fff2cc;
 }
 
 html{
