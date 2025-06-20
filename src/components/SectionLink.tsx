@@ -1,7 +1,7 @@
 import {useState} from "react";
 import '../css/App.css';
 
-export default ({text, onClick}) => {
+export default ({text, onClick}: {text:string, onClick:(event: React.MouseEvent<HTMLDivElement>) => void}) => {
 
     const [isHovering, setHovering] = useState(false)
 

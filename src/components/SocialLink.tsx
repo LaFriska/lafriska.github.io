@@ -1,5 +1,5 @@
 
-export default ({logoFile, text, link}) => {
+export default ({logoFile, text, link}: {logoFile: string, text: string, link:string}) => {
 
     const linkStyle = {
         display: 'flex',
