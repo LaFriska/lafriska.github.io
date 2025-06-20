@@ -1,22 +1,35 @@
 import '../css/App.css';
-import Projects from "./Projects";
 import Project from "./Project";
+import {project} from "./Project";
+import {useEffect, useState} from "react";
 
 export default () => {
+
+    const [projects, setProjects] = useState<project[]>([]);
+
+    useEffect(() => {
+        fetch(`${process.env.PUBLIC_URL}/json/projects.json`)
+            .then((res) => {
+                if (!res.ok) throw new Error("Failed to load JSON");
+                return res.json();
+            })
+            .then(setProjects)
+            .catch((err) => console.error("Error loading JSON:", err));
+    }, [])
 
     const style = {
         display: 'grid',
         gridTemplateColumns: 'repeat(3, 1fr)',
         gap: '2rem'
-
     }
 
     return (
         <div className={'page'} style={style}>
-            <Project name={'Kompakt'}
-                     description={'A compact and convenient JSON serialiser for Java, aimed to resolve verbosity of libraries such as Gson.'}
-                     date={'November 2024'}
-                     tags={['ml', 'cs', 'ca', 'se', 'asda']} />
+            {
+                projects.map((current, i) => {
+                    return <span key={i}> <Project proj={current} /> </span>
+                })
+            }
         </div>
     )
 }

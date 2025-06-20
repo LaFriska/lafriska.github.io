@@ -2,7 +2,9 @@ import '../css/App.css';
 import ProjectTag from "./ProjectTag";
 import {TagColour} from "./ProjectTag";
 
-export default ({name, description, date, tags}: { name: string, description: string, date: string, tags: string[] }) => {
+export type project = { name: string, description: string, date: string, tags: string[] }
+
+export default ({proj}: {proj: project}) => {
 
     const containerStyle = {
         backgroundColor: 'var(--embed-gray)',
@@ -32,13 +34,13 @@ export default ({name, description, date, tags}: { name: string, description: st
     return ( //A compact and convenient JSON serialiser for Java, aimed to resolve verbosity of libraries such as Gson.
         <div style={containerStyle}>
             <div style={textContainerStyle}>
-                <h3 className={'projectText'}>{name}</h3>
-                <p> {description} </p>
+                <h3 className={'projectText'}>{proj.name}</h3>
+                <p> {proj.description} </p>
                 <div style={tagContainerStyle}>
-                    {createTags(tags)}
+                    {createTags(proj.tags)}
                 </div>
                 <div style={footerStyle}>
-                    {date}
+                    {proj.date}
                 </div>
             </div>
         </div>
