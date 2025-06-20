@@ -2,6 +2,7 @@ import {useEffect, useState} from "react";
 import ReactMarkdown from "react-markdown";
 import ImageGallery from "./ImageGallery";
 import remarkGfm from "remark-gfm";
+import rehypeRaw from "rehype-raw";
 
 export default () => {
     const [education, setEducation] = useState('*Loading...*')
@@ -19,10 +20,11 @@ export default () => {
     ];
 
 
+
     return (
         <div style={{ display: 'flex' }}>
             <div className={'page'}>
-                <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                <ReactMarkdown className={"clean-tables"} remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
                     {education}
                 </ReactMarkdown>
             </div>

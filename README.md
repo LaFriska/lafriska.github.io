@@ -4,7 +4,9 @@ This is the repository for my personal website, which is built in React.
 
 ## External Libraries
 
-- [react-markdown](https://www.npmjs.com/package/react-markdown/v/8.0.6#use)
+- [react-markdown 8.0.6](https://www.npmjs.com/package/react-markdown/v/8.0.6#use)
+- [react-gfm 1.0.0](https://www.npmjs.com/package/remark-gfm/v/1.0.0)
+- [rehype-raw 6.1.0](https://www.npmjs.com/package/rehype-raw/v/6.1.0)
 
 ## Create a Local Instance
 
