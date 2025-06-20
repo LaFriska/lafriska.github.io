@@ -1,8 +1,9 @@
 import '../css/App.css';
 import ProjectTag from "./ProjectTag";
 import {TagColour} from "./ProjectTag";
+import ReactMarkdown from "react-markdown";
 
-export type project = { name: string, description: string, date: string, tags: string[] }
+export type project = { name: string, description: string, date: string, tags: string[], link: string }
 
 export default ({proj}: {proj: project}) => {
 
@@ -12,38 +13,38 @@ export default ({proj}: {proj: project}) => {
         borderRadius: '3px',
         padding: '10px 15px',
         margin: '1rem 0',
-        gap: '10px'
+        gap: '10px',
+        marginLeft: '15px',
     }
 
-    const textContainerStyle = {
-        marginLeft: '15px'
-    }
+    const anchorStyle = {
+        textDecoration: 'none',
+        color: 'inherit'
+    };
 
     const footerStyle = {
         marginTop: '10px',
         fontSize: '0.75rem',
         color: 'var(--border-gray)'
     }
-
-    const tagContainerStyle = {}
-
-    const tagListStyle = {
-        display: 'flex'
-    }
+//https://www.researchgate.net/publication/392693096_Six_Years_of_Neural_Distinguishers_Implications_on_Cryptanalysis_of_Advanced_Encryption_Standard
 
     return ( //A compact and convenient JSON serialiser for Java, aimed to resolve verbosity of libraries such as Gson.
-        <div style={containerStyle}>
-            <div style={textContainerStyle}>
+        <a href={proj.link}
+           style={anchorStyle}
+           target="_blank"
+        >
+            <div style={containerStyle}>
                 <h3 className={'projectText'}>{proj.name}</h3>
-                <p> {proj.description} </p>
-                <div style={tagContainerStyle}>
+                <ReactMarkdown>{proj.description}</ReactMarkdown>
+                <div>
                     {createTags(proj.tags)}
                 </div>
                 <div style={footerStyle}>
                     {proj.date}
                 </div>
             </div>
-        </div>
+        </a>
     )
 }
 

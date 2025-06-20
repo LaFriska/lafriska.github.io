@@ -3,6 +3,35 @@
     "name": "Kompakt",
     "description": "A compact and convenient JSON serialiser for Java, aimed to resolve verbosity of libraries such as Gson.",
     "date": "November 2024",
-    "tags": ["se"]
+    "tags": ["se"],
+    "link": "https://github.com/LaFriska/kompakt"
+  },
+  {
+    "name": "Personal Website",
+    "description": "This is the website you are currently viewing, built using React and Typescript.",
+    "date": "June 2025",
+    "tags": ["se"],
+    "link": "https://github.com/LaFriska/personal-website"
+  },
+  {
+    "name": "QuAC CPU",
+    "description": "For an assignment, I extended ANU's [QuAC](https://comp.anu.edu.au/courses/comp2300/resources/08-QuAC-ISA/) assembly to support a decreasing function call stack, pre/post-offset, immediate, and base+offset memory operations, conditional execution, ALU immediate formats, and built a microarchitecture for it using basic circuits and logic gates.",
+    "date": "April 2025",
+    "tags": ["ca"],
+    "link": "https://github.com/LaFriska/quac-microarchitecture"
+  },
+  {
+    "name": "Literature Review",
+    "description": "For an introductory research course, I wrote a literature review on the topic of neural cryptanalysis.",
+    "date": "May 2025",
+    "tags": ["cs", "ml"],
+    "link": "https://www.researchgate.net/publication/392693096_Six_Years_of_Neural_Distinguishers_Implications_on_Cryptanalysis_of_Advanced_Encryption_Standard"
+  },
+  {
+    "name": "Berklee.ai",
+    "description": "Discord bot that casually generates music theory (harmony) practice questions for Berklee students.",
+    "date": "August 2023",
+    "tags": ["se"],
+    "link": "https://github.com/LaFriska/Berklee.ai"
   }
 ]

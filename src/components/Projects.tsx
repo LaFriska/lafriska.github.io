@@ -18,13 +18,11 @@ export default () => {
     }, [])
 
     const style = {
-        display: 'grid',
-        gridTemplateColumns: 'repeat(3, 1fr)',
-        gap: '2rem'
+        marginLeft: '35px'
     }
 
     return (
-        <div className={'page'} style={style}>
+        <div  style={style}>
             {
                 projects.map((current, i) => {
                     return <span key={i}> <Project proj={current} /> </span>
