@@ -15,9 +15,13 @@ export default () => {
             .then(setAboutMe)
     }, [])
 
-    const socialLinksStyle = {
+    const paths: string[] = [
+        "img/circuits.jpg",
+        "img/linalg.jpg",
+        "img/neural.png",
+        "img/algebra.jpg"
+    ];
 
-    }
 
     return (
         <div style={{ display: 'flex' }}>
@@ -28,14 +32,14 @@ export default () => {
                 <ReactMarkdown>
                     {'## Connect With Me'}
                 </ReactMarkdown>
-                <div style={socialLinksStyle}>
+                <div>
                     <SocialLink logoFile={'github.png'} text={'LaFriska'} link={'https://github.com/LaFriska'} />
                     <SocialLink logoFile={'linkedin.png'} text={'Harold Gao'} link={'https://www.linkedin.com/in/harold-gao-4549342b8/'} />
                     <SocialLink logoFile={'researchgate.png'} text={'Harold Gao'} link={'https://www.researchgate.net/profile/Harold-Gao?ev=hdr_xprf'} />
                     <SocialLink logoFile={'mail.png'} text={'harold.gao205@gmail.com'} link={'harold.gao205@gmail.com'} />
                 </div>
             </div>
-            <ImageGallery/>
+            <ImageGallery paths={paths}/>
         </div>
     )
 
