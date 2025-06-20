@@ -13,14 +13,10 @@ export default () => {
 
     return (
         <div className={'page'} style={style}>
-            <Project />
-            <Project />
-            <Project />
-            <Project />
-            <Project />
-            <Project />
-            <Project />
-            <Project />
+            <Project name={'Kompakt'}
+                     description={'A compact and convenient JSON serialiser for Java, aimed to resolve verbosity of libraries such as Gson.'}
+                     date={'November 2024'}
+                     tags={['ml', 'cs', 'ca', 'se', 'asda']} />
         </div>
     )
 }
