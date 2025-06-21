@@ -7,8 +7,8 @@ const styles = {
     container: {
         justifyContent: 'space-between',
         alignItems: 'center',
-        padding: '1rem 40px',
-        margin: '1rem',
+        paddingTop: `1rem`,
+        paddingBottom: `1rem`,
         borderBottom: '1px solid #ccc',
     },
     nav: {

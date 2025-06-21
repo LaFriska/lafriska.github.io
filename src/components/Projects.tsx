@@ -17,12 +17,8 @@ export default () => {
             .catch((err) => console.error("Error loading JSON:", err));
     }, [])
 
-    const style = {
-        marginLeft: '35px'
-    }
-
     return (
-        <div  style={style}>
+        <div>
             {
                 projects.map((current, i) => {
                     return <span key={i}> <Project proj={current} /> </span>

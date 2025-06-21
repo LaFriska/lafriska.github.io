@@ -29,7 +29,7 @@ export default () => {
     }
 
     const style = {
-        margin: '1rem 8rem'
+        margin: '1rem 2.5rem'
     }
 
     return (

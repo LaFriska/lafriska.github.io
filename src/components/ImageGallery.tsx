@@ -14,8 +14,7 @@ export default function Gallery({paths}: {paths:string[]}) {
         gap: '1rem',
         width: '100%',
         maxWidth: '600px',
-        marginLeft: 'auto',
-        marginRight: 'auto',
+        marginLeft: '3rem'
     };
 
     return (
