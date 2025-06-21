@@ -16,10 +16,10 @@ export default () => {
     }, [])
 
     const paths: string[] = [
+        "img/rijndael.PNG",
         "img/graph.png",
         "img/algebra.jpg",
-        "img/neural.png",
-        "img/rijndael.PNG"
+        "img/neural.png"
     ];
 
 

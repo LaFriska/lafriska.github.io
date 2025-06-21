@@ -1,4 +1,4 @@
-`Last Updated: 17/06/2025`
+`Last Updated: 22/06/2025`
 
 ## About Me
 
@@ -20,10 +20,9 @@ profile. I am familiar with many programming paradigms, including the following.
 
 ### Cybersecurity
 
-I am very passionate about cybersecurity. I am specifically interested in neural-aided symmetric-key cryptanalysis, for which
-I have written a [literature review](https://www.researchgate.net/publication/392693096_Six_Years_of_Neural_Distinguishers_Implications_on_Cryptanalysis_of_Advanced_Encryption_Standard)
-during an introductory research course at ANU. I plan to pursue a cybersecurity major, in which I will further develop my
-understanding of concepts like networks, cybercrime, and software security. 
+I am very passionate about cybersecurity. I am specifically interested in cryptography, for which
+I have written a [literature review](https://www.researchgate.net/publication/392693096_Six_Years_of_Neural_Distinguishers_Implications_on_Cryptanalysis_of_Advanced_Encryption_Standard) during an introductory research course at ANU. In my third and fourth year at
+ANU, I plan to take various cybersecurity courses to deepen my knowledge of this field. 
 
 ### Computer Architecture
 
