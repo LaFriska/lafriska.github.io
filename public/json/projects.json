@@ -1,5 +1,12 @@
 [
   {
+    "name": "Assembly Emulator",
+    "description": "A custom-designed ISA with C-style assembly syntax, with full parser and emulator in Java to demonstrate my proficiency in COMP2300 and COMP2100 content.",
+    "date": "July 2025",
+    "tags": ["ca", "se"],
+    "link": "https://github.com/LaFriska/sugar-isa"
+  },
+  {
     "name": "Kompakt",
     "description": "A compact and convenient JSON serialiser for Java, aimed to resolve verbosity of libraries such as Gson.",
     "date": "November 2024",
