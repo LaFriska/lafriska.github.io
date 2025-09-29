@@ -10,24 +10,25 @@ displayed on this website.
 
 ### Software Engineering
 
-I am highly experienced with Java, and proficient in Python, Javascript, HTML/CSS and ARM assembly. I started coding
+I am highly experienced with Java, and proficient in Python, C, Javascript, HTML/CSS and ARM assembly. I started coding
 in 2016, and I started learning Java since 2018. I have built several projects, notable ones are displayed on my [GitHub](https://github.com/LaFriska)
-profile. I am familiar with many programming paradigms, including the following.
-- Functional Programming (FP), using purely functional languages like [Haskell](https://www.haskell.org/), or similar workflows like [React](https://react.dev/).
-- Object Oriented Programming (OOP), highly experienced in Java and worked with C#. I am proficient in OOP at a theoretical level, with profound understanding in principles like Liskov substitution.
-- Procedural Programming, experienced using Python, along with libraries such as [NumPy](https://numpy.org/). I am also proficient in Javascript, and low-level languages like ARM assembly. 
-- Formal Verification, worked with verification-aware languages like [Dafny](https://dafny.org/), and I understand basic theoretical computing concepts such as pre/post-conditions, Invariants, and induction over tree-like data structures.
+profile. From my studies at ANU, I familiarised myself with many programming paradigms, including the following.
+- Functional Programming (FP), I've worked with purely functional languages like [Haskell](https://www.haskell.org/).
+- Object Oriented Programming (OOP), highly experienced in Java and worked with C# and C++.
+- Procedural Programming, experienced using Python, along with libraries such as [NumPy](https://numpy.org/). I am also proficient in Javascript, and low-level languages like ARM assembly.
 
 ### Cybersecurity
 
 I am very passionate about cybersecurity. I am specifically interested in cryptography, for which
 I have written a [literature review](https://www.researchgate.net/publication/392693096_Six_Years_of_Neural_Distinguishers_Implications_on_Cryptanalysis_of_Advanced_Encryption_Standard) during an introductory research course at ANU. In my third and fourth year at
-ANU, I plan to take various cybersecurity courses to deepen my knowledge of this field. 
+ANU, I plan to take various cybersecurity courses to deepen my knowledge of this field. A project I plan to do over the summmer
+of 2025, is to build a VPN from scratch, which drills in what I've learnt in COMP2700 (cybersecurity) and COMP2310 (Systems, Networks,
+and Concurrency).
 
-### Computer Architecture
+### Systems and Architecture
 
 The fundamental workings of a modern computer is also an interest of mine. For one of my courses in 2025, I have built a fully functioning
-CPU for the [QuAC](https://comp.anu.edu.au/courses/engn2219/resources/QuAC-ISA/) ISA along with extensions to the instruction
+CPU for ANU's [QuAC](https://comp.anu.edu.au/courses/engn2219/resources/QuAC-ISA/) ISA along with extensions to the instruction
 set to support function calls, conditional branching and more immediate instruction formats. The repository can be found
 [here](https://github.com/LaFriska/quac-microarchitecture).
 
