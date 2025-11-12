@@ -16,7 +16,6 @@ export default () => {
     const paths: string[] = [
         "img/academic1.jpg",
         "img/academic2.jpg",
-        "img/canberra.jpg"
     ];
 
 

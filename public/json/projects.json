@@ -7,6 +7,13 @@
     "link": "https://github.com/LaFriska/sugar-isa"
   },
   {
+    "name": "Open Source Contribution - JDA",
+    "description": "Implements support for reading, writing and modifying system channel flags for the Java Discord API. This repository has 4.6k stars, and is used by many. My contribute adds around 500 lines of code.",
+    "date": "November 2025",
+    "tags": ["se"],
+    "link": "https://github.com/discord-jda/JDA/pull/2928"
+  },
+  {
     "name": "Kompakt",
     "description": "A compact and convenient JSON serialiser for Java, aimed to resolve verbosity of libraries such as Gson.",
     "date": "November 2024",
