@@ -68,7 +68,7 @@ function createTag(type: string) {
         case "se":
             return <ProjectTag colour={TagColour.Yellow}>Software</ProjectTag>;
         case "ca":
-            return <ProjectTag colour={TagColour.Purple}>Computer Architecture</ProjectTag>;
+            return <ProjectTag colour={TagColour.Purple}>Systems & Architecture</ProjectTag>;
         case "cs":
             return <ProjectTag colour={TagColour.Blue}>Cybersecurity</ProjectTag>;
         case "ml":
