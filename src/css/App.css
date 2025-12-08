@@ -78,3 +78,6 @@ html{
     margin-top: auto;
 }
 
+.cv a {
+    text-decoration: none;
+}

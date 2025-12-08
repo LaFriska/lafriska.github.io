@@ -4,7 +4,7 @@
 
 Hey there! I'm Harold, a current student at the Australian National University (ANU) pursuing an Advanced
 Computing Research & Development honours degree. My interests are in computer systems and architecture, and cybersecurity. 
-This website aims to serve as a slightly less formal alternative to my CV, showing off my projects and academic 
+This website aims to serve as a slightly less formal alternative to my [CV](https://docs.google.com/document/d/1cRvE7bLuGK2FRxGdd8eCo8lvJHPJ79gVltBQ72_ruWg/edit?usp=sharing), showing off my projects and academic 
 achievements. This website may also contain some random things about me, such as some blogs or personal notes. 
 
 My contact details is also displayed on this website. 

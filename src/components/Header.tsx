@@ -25,6 +25,13 @@ export default ({pageSetter}: any) => {
                 <SectionLink onClick={() => {pageSetter(Page.AboutMe)}} text={"About Me"} />
                 <SectionLink onClick={() => {pageSetter(Page.Projects)}} text={"Projects"} />
                 <SectionLink onClick={() => {pageSetter(Page.Education)}} text={"Education"} />
+                <a
+                    href={"https://docs.google.com/document/d/1cRvE7bLuGK2FRxGdd8eCo8lvJHPJ79gVltBQ72_ruWg/edit?usp=sharing"}
+                    target={"_blank"}
+                    style={{textDecoration:"none"}}
+                >
+                    <SectionLink onClick={()=>{}} text={"CV"}/>
+                </a>
             </nav>
         </header>
     );
