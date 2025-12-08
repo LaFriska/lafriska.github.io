@@ -28,6 +28,13 @@
     "link": "https://github.com/LaFriska/personal-website"
   },
   {
+    "name": "gradethink",
+    "description": "This is a simple CLI tool developed in C to calculate and speculate course grades.",
+    "date": "November 2025",
+    "tags": ["se"],
+    "link": "https://github.com/LaFriska/gradethink"
+  },
+  {
     "name": "QuAC CPU",
     "description": "For an assignment, I extended ANU's [QuAC](https://comp.anu.edu.au/courses/comp2300/resources/08-QuAC-ISA/) assembly to support a decreasing function call stack, pre/post-offset, immediate, and base+offset memory operations, conditional execution, ALU immediate formats, and built a microarchitecture for it using basic circuits and logic gates.",
     "date": "April 2025",
