@@ -21,6 +21,13 @@
     "link": "https://github.com/LaFriska/kompakt"
   },
   {
+    "name": "gradethink",
+    "description": "A simple CLI tool written in C to calculate and speculate course component marks.",
+    "date": "November 2025",
+    "tags": ["se"],
+    "link": "https://github.com/LaFriska/gradethink"
+  },
+  {
     "name": "Personal Website",
     "description": "This is the website you are currently viewing, built using React and Typescript.",
     "date": "June 2025",
